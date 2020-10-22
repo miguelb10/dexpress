@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -11,8 +11,6 @@
 
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
 
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -26,117 +24,123 @@
 </head>
 
 <body>
-    <section id="topbar" class="d-none d-lg-block">
-        <div class="container clearfix">
-            <div class="float-left">
-                <img style="max-width: 50%;" src="assets/img/logo-dexpresshf.png">
+    <?php require 'partials/header.php'; ?>
+
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" style="background-image: url('assets/img/slide/cabecera_1.jpg');">
+                        <div class="carousel-container">
+                            <div class="carousel-content container">
+                                <h2 class="animate__animated animate__fadeInDown">Bienvenido a</br>DExpress Perú</h2>
+                                <p class="text-slider animate__animated animate__fadeInUp">Somos tu socio estratégico en el
+                                    tranporte y distribución de alimentos y
+                                    operaciones logísticas.</p>
+                                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="social-links float-right">
-                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="#" class="skype"><i class="icofont-skype"></i></a>
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        </div>
+    </section><!-- End Hero -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_alimentos.png">
+                    <h4 class="title"><a href="">Distribución de alimentos</a></h4>
+                    <p class="description">Contamos con más de 8 años en el mercado,
+                        transportando alimentos para distintas empresas
+                        fast food, Pollerías y restaurantes. Ofreciendo una
+                        tarifa plana sin comisiones. </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_logistica.png">
+                    <h4 class="title"><a href="">Logística</a></h4>
+                    <p class="description">Gestión y agilidad en la logística del transporte y
+                        abastecimientos farmaceúticos, alimentacios para
+                        consolidar la entrega de sus productos. </p>
+                </div>
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_contac_center.png">
+                    <h4 class="title"><a href="">Contact Center</a></h4>
+                    <p class="description">Atención telefónica personalizada, recepción de
+                        canal web y/o email de todos sus envíos.</p>
+                </div>
             </div>
+        </div>
+
+        <!-- ======= Counts Section ======= -->
+        <section class="counts">
+            <div class="container">
+                <div class="row box-center-services">
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+                        <div class="count-box">
+                            <img class="iconos-services" src="assets/img/iconos/dexpress_seguimiento.png">
+                            <h4 class="title"><a href="">Seguimiento de productos</a></h4>
+                            <p>Supervisión y control de todos envíos de productos,
+                                de manera fácil y rápida.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="count-box">
+                            <img class="iconos-services" src="assets/img/iconos/dexpress_notificaciones.png">
+                            <h4 class="title"><a href="">Notificaciones de envío</a></h4>
+                            <p>Ahora tendrás tranquilidad de saber dónde están
+                                tus productos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Counts Section -->
+
+
+        <div class="container">
+            <div class="row box-center-services">
+                <div class="col-lg-3 col-md-6 icon-box" data-aos="fade-up">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_logistica_gris.png">
+                    <h4 class="title"><a href="">Distribución de alimentos</a></h4>
+                    <p class="description">Gestión y agilidad en la logística del transporte y
+                        abastecimientos farmaceúticos, alimentacios para
+                        consolidar la entrega de sus productos. </p>
+                </div>
+                <div class="col-lg-3 col-md-6 icon-box" data-aos="fade-up">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_alimentos_gris.png">
+                    <h4 class="title"><a href="">Logística</a></h4>
+                    <p class="description">Contamos con más de 8 años en el mercado,
+                        transportando alimentos para distintas empresas
+                        fast food, Pollerías y restaurantes. Ofreciendo una
+                        tarifa plana sin comisiones. </p>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Services Section -->
+
+    <section class="experiencia">
+        <div class="container">
+            <font class="title-experiencia">Experiencia</font>
+            <font class="text-experiencia"> | Somos una empresa constituida y especializada en el servicio de delivery de alimentos con más de 8 años en el mercado.</font>
         </div>
     </section>
-    <header id="header">
-        <div class="container">
-            <div class="logo float-left logo-mobile">
-                <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1>
-            </div>
-            <nav class="nav-menu d-none d-lg-block">
-                <ul>
-                    <li class="active"><a href="index.html">Inicio</a></li>
-                    <li><a href="#about">Quiénes Somos</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#portfolio">Contáctanos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
-    <h1>Hola</h1>
+
+    <?php require 'partials/footer.php'; ?>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

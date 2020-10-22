@@ -1,13 +1,78 @@
-/**
-* Template Name: Mamba - v3.0.1
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@font-face {
+  font-family: GalanoGrotesque;
+  src: url(../../fonts/GalanoGrotesque.otf);
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+@font-face {
+  font-family: GalanoGrotesqueAlt;
+  src: url(../../fonts/GalanoGrotesqueAlt.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltBlack;
+  src: url(../../fonts/GalanoGrotesqueAltBlack.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltBlackItalic;
+  src: url(../../fonts/GalanoGrotesqueAltBlackItalic.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltBold;
+  src: url(../../fonts/GalanoGrotesqueAltBold.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltBoldItalic;
+  src: url(../../fonts/GalanoGrotesqueAltBoldItalic.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltDEMOBold;
+  src: url(../../fonts/GalanoGrotesqueAltDEMOBold.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltExtraBold;
+  src: url(../../fonts/GalanoGrotesqueAltExtraBold.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltExtraBoldItalic;
+  src: url(../../fonts/GalanoGrotesqueAltExtraBoldItalic.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltExtraLight;
+  src: url(../../fonts/GalanoGrotesqueAltExtraLight.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltExtraLightItalic;
+  src: url(../../fonts/GalanoGrotesqueAltExtraLightItalic.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltHeavy;
+  src: url(../../fonts/GalanoGrotesqueAltHeavy.otf);
+}
+
+@font-face {
+  font-family: GalanoGrotesqueAltHeavyItalic;
+  src: url(../../fonts/GalanoGrotesqueAltHeavyItalic.otf);
+}
+
+.text-header {
+  font-size: 20px !important;
+  font-family: GalanoGrotesqueAltBold !important;
+}
+
+.text-slider {
+  font-size: 20px !important;
+  font-family: GalanoGrotesque !important;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -30,6 +95,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -57,13 +123,20 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: background 0.2s ease-in-out;
 }
 
+.footer-middle {
+  background: #4449aa;
+  padding: 10px 0;
+  border-bottom: 1px solid #4449aa;
+  font-size: 14px;
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
+
 #topbar {
-  background: #003055;
+  background: #3339a3;
   padding: 10px 0;
-  border-bottom: 1px solid #003055;
+  border-bottom: 1px solid #3339a3;
   font-size: 14px;
 }
 
@@ -99,11 +172,31 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #428bca;
 }
 
+.experiencia {
+  height: 76px;
+  transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 10px 0;
+  background: black;
+  z-index: 997;
+}
+
+.title-experiencia {
+  color: white;
+  font-size: 30px;
+}
+
+.text-experiencia {
+  color: white;
+  font-size: 15px;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
-  height: 70px;
+  height: 76px;
   transition: all 0.5s;
   transition: all 0.5s;
   padding: 10px 0;
@@ -139,14 +232,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
 /* Desktop Navigation */
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
   float: left;
@@ -155,15 +250,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #5c768d;
+  color: white;
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #428bca;
+.nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
+  color: black;
   text-decoration: none;
 }
 
@@ -181,7 +276,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: ease all 0.3s;
 }
 
-.nav-menu .drop-down:hover > ul {
+.nav-menu .drop-down:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -200,11 +295,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #103453;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active>a, .nav-menu .drop-down ul li:hover>a {
   color: #428bca;
 }
 
-.nav-menu .drop-down > a:after {
+.nav-menu .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
@@ -215,16 +310,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left: 100%;
 }
 
-.nav-menu .drop-down .drop-down:hover > ul {
+.nav-menu .drop-down .drop-down:hover>ul {
   opacity: 1;
   top: 0;
 }
 
-.nav-menu .drop-down .drop-down > a {
+.nav-menu .drop-down .drop-down>a {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
+.nav-menu .drop-down .drop-down>a:after {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
@@ -235,15 +330,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-  .nav-menu .drop-down .drop-down:hover > ul {
+  .nav-menu .drop-down .drop-down:hover>ul {
     left: -100%;
   }
-  .nav-menu .drop-down .drop-down > a:after {
+  .nav-menu .drop-down .drop-down>a:after {
     content: "\ea9d";
   }
 }
 
 /* Mobile Navigation */
+
 .mobile-nav {
   position: fixed;
   top: 0;
@@ -271,12 +367,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 500;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
   color: #9eccf4;
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav .drop-down>a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -284,11 +380,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav .active.drop-down>a:after {
   content: "\eaa0";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav .drop-down>a {
   padding-right: 35px;
 }
 
@@ -347,6 +443,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: calc(100vh - 114px);
@@ -365,7 +462,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(13, 30, 45, 0.6);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -402,9 +498,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero h2 {
-  color: #fff;
+  color: black;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 900;
 }
 
@@ -412,7 +508,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #fff;
+  color: black;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -420,23 +516,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-position: center top;
 }
 
-#hero .carousel-inner .carousel-item,
-#hero .carousel-inner .active.carousel-item-left,
-#hero .carousel-inner .active.carousel-item-right {
+#hero .carousel-inner .carousel-item, #hero .carousel-inner .active.carousel-item-left, #hero .carousel-inner .active.carousel-item-right {
   opacity: 0;
 }
 
-#hero .carousel-inner .active,
-#hero .carousel-inner .carousel-item-next.carousel-item-left,
-#hero .carousel-inner .carousel-item-prev.carousel-item-right {
+#hero .carousel-inner .active, #hero .carousel-inner .carousel-item-next.carousel-item-left, #hero .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
   transition: 0.5s;
 }
 
-#hero .carousel-inner .carousel-item-next,
-#hero .carousel-inner .carousel-item-prev,
-#hero .carousel-inner .active.carousel-item-left,
-#hero .carousel-inner .active.carousel-item-right {
+#hero .carousel-inner .carousel-item-next, #hero .carousel-inner .carousel-item-prev, #hero .carousel-inner .active.carousel-item-left, #hero .carousel-inner .active.carousel-item-right {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
@@ -472,7 +561,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #428bca;
+  background: #d71231;
 }
 
 #hero .btn-get-started:hover {
@@ -487,7 +576,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 @media (min-width: 1024px) {
   #hero p {
-    width: 60%;
+    width: 30%;
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
@@ -497,6 +586,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
 }
@@ -525,6 +615,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
+
 .breadcrumbs {
   padding: 15px 0;
   background-color: #f5f9fc;
@@ -545,11 +636,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -571,6 +662,7 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+
 .about {
   padding-bottom: 30px;
 }
@@ -593,7 +685,7 @@ section {
   padding: 40px;
 }
 
-.about .icon-box + .icon-box {
+.about .icon-box+.icon-box {
   margin-top: 40px;
 }
 
@@ -747,6 +839,7 @@ section {
 /*--------------------------------------------------------------
 # About Lists
 --------------------------------------------------------------*/
+
 .about-lists {
   padding: 40px;
 }
@@ -792,6 +885,7 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
+
 .counts {
   padding-bottom: 30px;
 }
@@ -801,6 +895,7 @@ section {
   padding: 30px;
   background: #fff;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .counts .count-box i {
@@ -826,8 +921,16 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.iconos-services {
+  max-width: 50%;
+}
+
 .services {
-  padding-bottom: 30px;
+  background-image: url(../img/DExpressWebsitelanzamiento_fondo_rojoEdit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
 
 .services .icon-box {
@@ -881,7 +984,6 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #428bca;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -894,6 +996,7 @@ section {
 /*--------------------------------------------------------------
 # Our Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1005,6 +1108,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
   padding-top: 30px;
 }
@@ -1060,7 +1164,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
@@ -1092,6 +1196,7 @@ section {
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
+
 .team {
   background: #fff;
   padding: 60px 0 30px 0;
@@ -1180,6 +1285,7 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+
 .faq {
   padding-bottom: 30px;
 }
@@ -1199,6 +1305,7 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
+
 .contact .info-box {
   color: #444;
   text-align: center;
@@ -1252,7 +1359,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1486,11 +1593,22 @@ section {
 #footer .credits a {
   color: #9eccf4;
 }
-.logo-mobile{
+
+.logo-mobile {
   display: none;
 }
+
+.box-center-services {
+  position: relative;
+  left: 25%;
+}
+
 @media screen and (max-width: 980px) {
   .logo-mobile {
     display: block;
+  }
+  .box-center-services {
+    position: relative;
+    left: 0%;
   }
 }
