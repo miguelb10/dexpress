@@ -131,6 +131,9 @@
                         tarifa plana sin comisiones. </p>
                 </div>
             </div>
+            <div style="text-align: center;">
+                <a href="#about" class="btn more-services">Conoce nuestros servicios</a>
+            </div>
         </div>
     </section><!-- End Services Section -->
 

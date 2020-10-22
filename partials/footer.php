@@ -6,7 +6,7 @@
   </div>
   <div class="footer-middle-text footer-middle text-center">
     <div class="container">
-      <h4>Encuéntranos en <img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png">
+      <h4 class="encuentranos-text-h4">Encuéntranos en <img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png">
         <img class="iconos-footer" src="assets/img/iconos/dexpress_facebook.png">
         <img class="iconos-footer" src="assets/img/iconos/dexpress_instagram.png">
         <a style="color: transparent;">_____</a>

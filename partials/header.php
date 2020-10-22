@@ -1,7 +1,19 @@
-<section id="topbar" class="d-none d-lg-block">
+<section id="topbar" class="d-none d-lg-block header-width">
     <div class="container clearfix">
         <div class="float-left">
             <img style="max-width: 50%;" src="assets/img/logo-dexpresshf.png">
+        </div>
+        <div id="box-right" class="float-right float-right-header">
+            <div id="flotante"></div>
+            <div id="container-box">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 icon-box text-direct-header">Jr. Las Magnolias Nro. 168 B
+                        Independencia - Lima
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box text-direct-header">Lun - Vie: 8:30 - 18:30
+                        Sáb: Medio día</div>
+                </div>
+            </div>
         </div>
         <!--<div class="social-links float-right">
                 <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
@@ -19,10 +31,10 @@
         </div>
         <nav class="nav-menu d-none d-lg-block text-header">
             <ul>
-                <li class="active"><a class="text-header" href="index.html">Inicio</a></li>
+                <li class="active"><a class="text-header" href="#hero">Inicio</a></li>
                 <li><a class="text-header" href="#about">Quiénes Somos</a></li>
                 <li><a class="text-header" href="#services">Servicios</a></li>
-                <li><a class="text-header" href="#portfolio">Contáctanos</a></li>
+                <li><a class="text-header" href="#contact">Contáctanos</a></li>
             </ul>
         </nav>
         <nav class="text-header  float-right display-pc">

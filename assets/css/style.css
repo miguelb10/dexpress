@@ -46,6 +46,23 @@
   font-family: GalanoGrotesqueMedium !important;
 }
 
+.header-width {
+  width: 100%;
+}
+
+.float-left {
+  margin-top: 1%;
+  max-width: 45%;
+}
+
+.float-right-header {
+  margin-right: -190px;
+}
+
+.text-direct-header {
+  color: white;
+}
+
 .text-contacto-telf {
   color: white;
 }
@@ -1463,6 +1480,11 @@ section {
   background-color: white;
 }
 
+.more-services {
+  background-color: transparent;
+  border: 2px solid black;
+}
+
 .experiencia {
   background: black;
   padding: 40px 10px 40px 10px;
@@ -1656,8 +1678,15 @@ section {
 }
 
 .encuentranos-enlaces {
+  font-family: GalanoGrotesqueLight !important;
   color: white;
   font-size: 10px;
+}
+
+.encuentranos-text-h4 {
+  font-family: GalanoGrotesqueSemiBold !important;
+  color: white;
+  font-size: 15px;
 }
 
 .icon_contact_header {
@@ -1698,4 +1727,19 @@ section {
 body {
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+#box-right {
+  height: 100px;
+}
+
+#flotante {
+  float: left;
+  height: 25%;
+  width: 100%;
+}
+
+#container-box {
+  clear: both;
+  height: 100px;
 }
