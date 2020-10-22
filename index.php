@@ -40,7 +40,7 @@
                             <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown">Bienvenido a</br>DExpress Perú</h2>
                                 <p class="text-slider animate__animated animate__fadeInUp">Somos tu socio estratégico en el
-                                    tranporte y distribución de alimentos y
+                                    1tranporte y distribución de alimentos y
                                     operaciones logísticas.</p>
                                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
                             </div>
