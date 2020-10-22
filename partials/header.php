@@ -16,7 +16,7 @@
     <header id="header">
         <div class="container">
             <div class="logo float-left logo-mobile">
-                <h1 class="text-light"><a href="index.html"><span>DEXPRESS</span></a></h1>
+                <h1><a class="text-replace-logo" href="index.html">DExpress</a></h1>
             </div>
             <nav class="nav-menu d-none d-lg-block text-header">
                 <ul>
@@ -24,6 +24,11 @@
                     <li><a class="text-header" href="#about">Quiénes Somos</a></li>
                     <li><a class="text-header" href="#services">Servicios</a></li>
                     <li><a class="text-header" href="#portfolio">Contáctanos</a></li>
+                </ul>
+            </nav>
+            <nav class="d-lg-block text-header float-right display-pc">
+                <ul>                    
+                    <a class="text-contacto-telf"><img class="icon_contact_header" src="assets/img/iconos/dexpress_contac_center_header.png"> 961767589 | 993252225 </br><p style="font-size: 12px; padding-left: 30px;">delivery.driver.express@gmail.com</p></a>
                 </ul>
             </nav>
         </div>

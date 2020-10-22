@@ -68,6 +68,10 @@
   font-family: GalanoGrotesqueAltBold !important;
 }
 
+.text-contacto-telf {
+  color: white;
+}
+
 .text-slider {
   font-size: 20px !important;
   font-family: GalanoGrotesque !important;
@@ -556,7 +560,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .btn-get-started:hover {
-  background: #1c5c93;
+  background: #d71231;
 }
 
 @media (max-width: 768px) {
@@ -1444,6 +1448,10 @@ section {
   padding: 40px 10px 40px 10px;
 }
 
+.text-replace-logo {
+  color: #3339a3 !important;
+}
+
 #footer {
   background: #3339a3;
   padding: 0 0 30px 0;
@@ -1622,6 +1630,19 @@ section {
   max-width: 2%;
 }
 
+.encuentranos-enlaces {
+  color: white;
+  font-size: 10px;
+}
+
+.icon_contact_header {
+  max-width: 5%;
+}
+
+.display-pc {
+  display: block;
+}
+
 @media screen and (max-width: 980px) {
   .logo-mobile {
     display: block;
@@ -1639,4 +1660,12 @@ section {
   .iconos-footer {
     max-width: 10%;
   }
+  .display-pc {
+    display: none;
+  }
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
