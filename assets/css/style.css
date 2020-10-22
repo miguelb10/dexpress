@@ -1,80 +1,53 @@
 @font-face {
-  font-family: GalanoGrotesque;
-  src: url(../../fonts/GalanoGrotesque.otf);
+  font-family: GalanoGrotesqueSemiBold;
+  src: url(../../fonts/GalanoGrotesqueSemiBold.otf);
 }
 
 @font-face {
-  font-family: GalanoGrotesqueAlt;
-  src: url(../../fonts/GalanoGrotesqueAlt.otf);
+  font-family: GalanoGrotesqueLight;
+  src: url(../../fonts/GalanoGrotesqueLight.otf);
 }
 
 @font-face {
-  font-family: GalanoGrotesqueAltBlack;
-  src: url(../../fonts/GalanoGrotesqueAltBlack.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltBlackItalic;
-  src: url(../../fonts/GalanoGrotesqueAltBlackItalic.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltBold;
-  src: url(../../fonts/GalanoGrotesqueAltBold.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltBoldItalic;
-  src: url(../../fonts/GalanoGrotesqueAltBoldItalic.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltDEMOBold;
-  src: url(../../fonts/GalanoGrotesqueAltDEMOBold.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltExtraBold;
-  src: url(../../fonts/GalanoGrotesqueAltExtraBold.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltExtraBoldItalic;
-  src: url(../../fonts/GalanoGrotesqueAltExtraBoldItalic.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltExtraLight;
-  src: url(../../fonts/GalanoGrotesqueAltExtraLight.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltExtraLightItalic;
-  src: url(../../fonts/GalanoGrotesqueAltExtraLightItalic.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltHeavy;
-  src: url(../../fonts/GalanoGrotesqueAltHeavy.otf);
-}
-
-@font-face {
-  font-family: GalanoGrotesqueAltHeavyItalic;
-  src: url(../../fonts/GalanoGrotesqueAltHeavyItalic.otf);
+  font-family: GalanoGrotesqueMedium;
+  src: url(../../fonts/GalanoGrotesqueMedium.otf);
 }
 
 .text-header {
   font-size: 20px !important;
-  font-family: GalanoGrotesqueAltBold !important;
+  font-family: GalanoGrotesqueSemiBold !important;
 }
 
-.text-contacto-telf {
-  color: white;
+.slider-text-title {
+  font-size: 40px !important;
+  font-family: GalanoGrotesqueSemiBold !important;
 }
 
 .text-slider {
   font-size: 20px !important;
-  font-family: GalanoGrotesque !important;
+  font-family: GalanoGrotesqueLight !important;
+}
+
+.title-services {
+  color: black !important;
+  font-size: 20px !important;
+  font-family: GalanoGrotesqueSemiBold !important;
+}
+
+.title-services-box {
+  text-align: left;
+  font-size: 25px !important;
+  font-family: GalanoGrotesqueSemiBold !important;
+}
+
+.description-text-services {
+  color: black !important;
+  font-size: 12px !important;
+  font-family: GalanoGrotesqueMedium !important;
+}
+
+.text-contacto-telf {
+  color: white;
 }
 
 body {
@@ -92,7 +65,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, .font-primary {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-primary {
   font-family: "Raleway", sans-serif;
 }
 
@@ -178,12 +157,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .title-experiencia {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .text-experiencia {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -213,7 +192,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-transform: uppercase;
 }
 
-#header .logo h1 a, #header .logo h1 a:hover {
+#header .logo h1 a,
+#header .logo h1 a:hover {
   color: #1c5c93;
   text-decoration: none;
 }
@@ -230,7 +210,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 /* Desktop Navigation */
 
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -252,7 +233,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
+.nav-menu a:hover,
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: black;
   text-decoration: none;
 }
@@ -290,7 +273,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #103453;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active>a, .nav-menu .drop-down ul li:hover>a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active>a,
+.nav-menu .drop-down ul li:hover>a {
   color: #428bca;
 }
 
@@ -325,9 +310,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
+
   .nav-menu .drop-down .drop-down:hover>ul {
     left: -100%;
   }
+
   .nav-menu .drop-down .drop-down>a:after {
     content: "\ea9d";
   }
@@ -362,7 +349,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 500;
 }
 
-.mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
+.mobile-nav a:hover,
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: #9eccf4;
   text-decoration: none;
 }
@@ -484,9 +473,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 @media (max-width: 992px) {
-  #hero, #hero .carousel-item {
+
+  #hero,
+  #hero .carousel-item {
     height: calc(100vh - 70px);
   }
+
   #hero .carousel-content.container {
     padding: 0 50px;
   }
@@ -511,25 +503,34 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-position: center top;
 }
 
-#hero .carousel-inner .carousel-item, #hero .carousel-inner .active.carousel-item-left, #hero .carousel-inner .active.carousel-item-right {
+#hero .carousel-inner .carousel-item,
+#hero .carousel-inner .active.carousel-item-left,
+#hero .carousel-inner .active.carousel-item-right {
   opacity: 0;
 }
 
-#hero .carousel-inner .active, #hero .carousel-inner .carousel-item-next.carousel-item-left, #hero .carousel-inner .carousel-item-prev.carousel-item-right {
+#hero .carousel-inner .active,
+#hero .carousel-inner .carousel-item-next.carousel-item-left,
+#hero .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
   transition: 0.5s;
 }
 
-#hero .carousel-inner .carousel-item-next, #hero .carousel-inner .carousel-item-prev, #hero .carousel-inner .active.carousel-item-left, #hero .carousel-inner .active.carousel-item-right {
+#hero .carousel-inner .carousel-item-next,
+#hero .carousel-inner .carousel-item-prev,
+#hero .carousel-inner .active.carousel-item-left,
+#hero .carousel-inner .active.carousel-item-right {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-prev, #hero .carousel-control-next {
+#hero .carousel-control-prev,
+#hero .carousel-control-next {
   width: 10%;
 }
 
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+#hero .carousel-control-next-icon,
+#hero .carousel-control-prev-icon {
   background: none;
   font-size: 48px;
   line-height: 1;
@@ -573,7 +574,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   #hero p {
     width: 30%;
   }
-  #hero .carousel-control-prev, #hero .carousel-control-next {
+
+  #hero .carousel-control-prev,
+  #hero .carousel-control-next {
     width: 5%;
   }
 }
@@ -646,9 +649,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -814,6 +819,7 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -825,6 +831,7 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -887,7 +894,7 @@ section {
 
 .counts .count-box {
   box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 0px 30px 30px 30px;
   background: #fff;
   margin-bottom: 30px;
   border-radius: 20px;
@@ -918,7 +925,12 @@ section {
 --------------------------------------------------------------*/
 
 .iconos-services {
-  max-width: 50%;
+  max-width: 35%;
+}
+
+.iconos-services-box {
+  max-width: 80%;
+
 }
 
 .services {
@@ -984,6 +996,7 @@ section {
 }
 
 .services .description {
+  text-align: left;
   line-height: 24px;
   font-size: 14px;
 }
@@ -1018,7 +1031,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background: #428bca;
   color: #fff;
 }
@@ -1117,7 +1131,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1182,6 +1197,7 @@ section {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
+
   .portfolio-details .portfolio-info {
     position: static;
     margin-top: 30px;
@@ -1391,13 +1407,15 @@ section {
   margin-bottom: 20px;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
   background-color: #428bca;
 }
 
@@ -1425,6 +1443,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1434,6 +1453,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1615,6 +1635,11 @@ section {
 
 .box-center-services {
   position: relative;
+  left: 20%;
+}
+
+.box-center-services-2 {
+  position: relative;
   left: 25%;
 }
 
@@ -1647,19 +1672,24 @@ section {
   .logo-mobile {
     display: block;
   }
+
   .box-center-services {
     position: relative;
     left: 0%;
   }
+
   .img-responsive-footer {
     max-width: 60%;
   }
+
   .salto-movil {
     display: block;
   }
+
   .iconos-footer {
     max-width: 10%;
   }
+
   .display-pc {
     display: none;
   }

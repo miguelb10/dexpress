@@ -38,9 +38,9 @@
                     <div class="carousel-item active" style="background-image: url('assets/img/slide/cabecera_1.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content container">
-                                <h2 class="animate__animated animate__fadeInDown">Bienvenido a</br>DExpress Perú</h2>
+                                <h2 class="animate__animated animate__fadeInDown slider-text-title">Bienvenido a</br>DExpress Perú</h2>
                                 <p class="text-slider animate__animated animate__fadeInUp">Somos tu socio estratégico en el
-                                    1tranporte y distribución de alimentos y
+                                    tranporte y distribución de alimentos y
                                     operaciones logísticas.</p>
                                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
                             </div>
@@ -65,23 +65,23 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                     <img class="iconos-services" src="assets/img/iconos/dexpress_alimentos.png">
-                    <h4 class="title"><a href="">Distribución de alimentos</a></h4>
-                    <p class="description">Contamos con más de 8 años en el mercado,
+                    <h4 class="title title-services">Distribución de alimentos</h4>
+                    <p class="description-text-services">Contamos con más de 8 años en el mercado,
                         transportando alimentos para distintas empresas
                         fast food, Pollerías y restaurantes. Ofreciendo una
                         tarifa plana sin comisiones. </p>
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                     <img class="iconos-services" src="assets/img/iconos/dexpress_logistica.png">
-                    <h4 class="title"><a href="">Logística</a></h4>
-                    <p class="description">Gestión y agilidad en la logística del transporte y
+                    <h4 class="title title-services">Logística</h4>
+                    <p class="description-text-services">Gestión y agilidad en la logística del transporte y
                         abastecimientos farmaceúticos, alimentacios para
                         consolidar la entrega de sus productos. </p>
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                     <img class="iconos-services" src="assets/img/iconos/dexpress_contac_center.png">
-                    <h4 class="title"><a href="">Contact Center</a></h4>
-                    <p class="description">Atención telefónica personalizada, recepción de
+                    <h4 class="title title-services">Contact Center</h4>
+                    <p class="description-text-services">Atención telefónica personalizada, recepción de
                         canal web y/o email de todos sus envíos.</p>
                 </div>
             </div>
@@ -91,19 +91,19 @@
         <section class="counts">
             <div class="container">
                 <div class="row box-center-services">
-                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
+                    <div class="col-lg-4 col-md-4 text-center" data-aos="fade-up">
                         <div class="count-box">
-                            <img class="iconos-services" src="assets/img/iconos/dexpress_seguimiento.png">
-                            <h4 class="title"><a href="">Seguimiento de productos</a></h4>
-                            <p>Supervisión y control de todos envíos de productos,
+                            <img class="iconos-services-box" src="assets/img/iconos/dexpress_seguimiento.png">
+                            <h4 class="title title-services">Seguimiento de productos</h4>
+                            <p class="description-text-services">Supervisión y control de todos envíos de productos,
                                 de manera fácil y rápida.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="count-box">
-                            <img class="iconos-services" src="assets/img/iconos/dexpress_notificaciones.png">
-                            <h4 class="title"><a href="">Notificaciones de envío</a></h4>
-                            <p>Ahora tendrás tranquilidad de saber dónde están
+                            <img class="iconos-services-box" src="assets/img/iconos/dexpress_notificaciones.png">
+                            <h4 class="title title-services">Notificaciones de envío</h4>
+                            <p class="description-text-services">Ahora tendrás tranquilidad de saber dónde están
                                 tus productos.</p>
                         </div>
                     </div>
@@ -113,17 +113,18 @@
 
 
         <div class="container">
+            <h1 class="text-center title title-services-box">Servicios</h1>
             <div class="row box-center-services">
-                <div class="col-lg-3 col-md-6 icon-box" data-aos="fade-up">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                     <img class="iconos-services" src="assets/img/iconos/dexpress_logistica_gris.png">
-                    <h4 class="title"><a href="">Distribución de alimentos</a></h4>
+                    <h4 class="title title-services-box">Logística</h4>
                     <p class="description">Gestión y agilidad en la logística del transporte y
                         abastecimientos farmaceúticos, alimentacios para
                         consolidar la entrega de sus productos. </p>
                 </div>
-                <div class="col-lg-3 col-md-6 icon-box" data-aos="fade-up">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                     <img class="iconos-services" src="assets/img/iconos/dexpress_alimentos_gris.png">
-                    <h4 class="title"><a href="">Logística</a></h4>
+                    <h4 class="title title-services-box">Distribución de alimentos</h4>
                     <p class="description">Contamos con más de 8 años en el mercado,
                         transportando alimentos para distintas empresas
                         fast food, Pollerías y restaurantes. Ofreciendo una
