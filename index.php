@@ -133,10 +133,14 @@
         </div>
     </section><!-- End Services Section -->
 
-    <section class="experiencia">
+    <section class="experiencia text-center">
         <div class="container">
             <font class="title-experiencia">Experiencia</font>
             <font class="text-experiencia"> | Somos una empresa constituida y especializada en el servicio de delivery de alimentos con más de 8 años en el mercado.</font>
+            <font style="color: black;">__________</font>
+            <br class="salto-movil">
+            <br class="salto-movil">
+            <a href="#about" class="btn experiencia-button">Ver más</a>
         </div>
     </section>
 

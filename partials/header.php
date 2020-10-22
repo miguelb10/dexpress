@@ -16,7 +16,7 @@
     <header id="header">
         <div class="container">
             <div class="logo float-left logo-mobile">
-                <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1>
+                <h1 class="text-light"><a href="index.html"><span>DEXPRESS</span></a></h1>
             </div>
             <nav class="nav-menu d-none d-lg-block text-header">
                 <ul>

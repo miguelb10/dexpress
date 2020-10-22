@@ -1,20 +1,21 @@
-<footer class="footer_area">
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="float-left">
-        <img style="max-width: 50%;" src="assets/img/logo-dexpresshf.png">
-      </div>
-    </div>
-  </section>
-  <section class="footer-middle">
+<footer id="footer">
+  <div class="footer-top">
     <div class="container">
-      <h4 style="color: white;">Encuéntranos en</h4>
+      <img class="img-responsive-footer" src="assets/img/logo-dexpresshf.png">
     </div>
-  </section>
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix text-center">
-      <h3 style="color: white;">JR. LAS MAGNOLIAS NRO. 168 B INDEPENDENCIA - LIMA</h3>
-      <h5 style="color: white;">@2020 Driver Express Perú SAC - All rights reserved</h5>
+  </div>
+  <div class="footer-middle-text footer-middle">
+    <div class="container">
+      <h4>Encuéntranos en <img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png">
+        <img class="iconos-footer" src="assets/img/iconos/dexpress_facebook.png">
+        <img class="iconos-footer" src="assets/img/iconos/dexpress_instagram.png"></h4>
     </div>
-  </section>
+  </div>
+  <div class="container">
+    <div class="copyright">JR. LAS MAGNOLIAS NRO. 168 B INDEPENDENCIA - LIMA
+    </div>
+    <div class="credits">
+      &copy; 2020 Driver Express Perú SAC - All rights reserved
+    </div>
+  </div>
 </footer>

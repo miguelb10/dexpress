@@ -124,11 +124,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .footer-middle {
-  background: #4449aa;
-  padding: 10px 0;
+  background: #4449aa !important;
   border-bottom: 1px solid #4449aa;
   font-size: 14px;
 }
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -170,15 +170,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar .social-links a:hover {
   color: #428bca;
-}
-
-.experiencia {
-  height: 76px;
-  transition: all 0.5s;
-  transition: all 0.5s;
-  padding: 10px 0;
-  background: black;
-  z-index: 997;
 }
 
 .title-experiencia {
@@ -1444,18 +1435,34 @@ section {
   }
 }
 
+.experiencia-button {
+  background-color: white;
+}
+
+.experiencia {
+  background: black;
+  padding: 40px 10px 40px 10px;
+}
+
 #footer {
-  background: #587187;
+  background: #3339a3;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5c768d;
-  border-top: 1px solid #768fa6;
-  border-bottom: 1px solid #67839c;
-  padding: 60px 0 30px 0;
+  background: #3339a3;
+  border-top: 1px solid #3339a3;
+  border-bottom: 1px solid #3339a3;
+  padding: 20px 0 20px 0;
+}
+
+#footer .footer-middle-text {
+  background: #3339a3;
+  border-top: 1px solid #3339a3;
+  border-bottom: 1px solid #3339a3;
+  padding: 10px 0 10px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1603,6 +1610,18 @@ section {
   left: 25%;
 }
 
+.img-responsive-footer {
+  max-width: 30%;
+}
+
+.salto-movil {
+  display: none;
+}
+
+.iconos-footer {
+  max-width: 2%;
+}
+
 @media screen and (max-width: 980px) {
   .logo-mobile {
     display: block;
@@ -1610,5 +1629,14 @@ section {
   .box-center-services {
     position: relative;
     left: 0%;
+  }
+  .img-responsive-footer {
+    max-width: 60%;
+  }
+  .salto-movil {
+    display: block;
+  }
+  .iconos-footer {
+    max-width: 10%;
   }
 }
