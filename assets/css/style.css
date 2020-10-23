@@ -13,28 +13,34 @@
   src: url(../../fonts/GalanoGrotesqueMedium.otf);
 }
 
+.description-text-box-ser {
+  color: #646464;
+  font-family: GalanoGrotesqueSemiBold !important;
+}
+
 .text-header {
   font-size: 20px !important;
   font-family: GalanoGrotesqueSemiBold !important;
 }
 
 .slider-text-title {
-  font-size: 40px !important;
+  font-size: 3vw !important;
   font-family: GalanoGrotesqueSemiBold !important;
 }
 
 .text-slider {
-  font-size: 20px !important;
+  font-size: 1vw !important;
   font-family: GalanoGrotesqueLight !important;
 }
 
 .title-services {
   color: black !important;
-  font-size: 20px !important;
+  font-size: 25px !important;
   font-family: GalanoGrotesqueSemiBold !important;
 }
 
 .title-services-box {
+  color: #646464;
   text-align: left;
   font-size: 25px !important;
   font-family: GalanoGrotesqueSemiBold !important;
@@ -42,7 +48,17 @@
 
 .description-text-services {
   color: black !important;
-  font-size: 12px !important;
+  font-size: 18px !important;
+  font-family: GalanoGrotesqueMedium !important;
+}
+
+.title_contactanos {
+  text-align: center;
+  font-family: GalanoGrotesqueSemiBold !important;
+}
+
+.text_form_contactanos {
+  text-align: center;
   font-family: GalanoGrotesqueMedium !important;
 }
 
@@ -63,7 +79,16 @@
   color: white;
 }
 
+.unique-topt {
+  margin-bottom: 0rem;
+  display: flex;
+}
+
 .text-contacto-telf {
+  color: white;
+}
+
+.text-contacto-telf:hover {
   color: white;
 }
 
@@ -82,13 +107,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.font-primary {
+h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
 
@@ -191,7 +210,7 @@ h6,
   transition: all 0.5s;
   transition: all 0.5s;
   padding: 10px 0;
-  background: #d71231;
+  background: #e82b3d;
   z-index: 997;
 }
 
@@ -209,8 +228,7 @@ h6,
   text-transform: uppercase;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
+#header .logo h1 a, #header .logo h1 a:hover {
   color: #1c5c93;
   text-decoration: none;
 }
@@ -218,7 +236,7 @@ h6,
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -227,8 +245,7 @@ h6,
 
 /* Desktop Navigation */
 
-.nav-menu,
-.nav-menu * {
+.nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -250,9 +267,7 @@ h6,
   font-family: "Open Sans", sans-serif;
 }
 
-.nav-menu a:hover,
-.nav-menu .active>a,
-.nav-menu li:hover>a {
+.nav-menu a:hover, .nav-menu .active>a, .nav-menu li:hover>a {
   color: black;
   text-decoration: none;
 }
@@ -290,9 +305,7 @@ h6,
   color: #103453;
 }
 
-.nav-menu .drop-down ul a:hover,
-.nav-menu .drop-down ul .active>a,
-.nav-menu .drop-down ul li:hover>a {
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active>a, .nav-menu .drop-down ul li:hover>a {
   color: #428bca;
 }
 
@@ -327,11 +340,9 @@ h6,
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
-
   .nav-menu .drop-down .drop-down:hover>ul {
     left: -100%;
   }
-
   .nav-menu .drop-down .drop-down>a:after {
     content: "\ea9d";
   }
@@ -348,7 +359,7 @@ h6,
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #1f3548;
+  background: #3339a3;
   transition: 0.4s;
 }
 
@@ -366,9 +377,7 @@ h6,
   font-weight: 500;
 }
 
-.mobile-nav a:hover,
-.mobile-nav .active>a,
-.mobile-nav li:hover>a {
+.mobile-nav a:hover, .mobile-nav .active>a, .mobile-nav li:hover>a {
   color: #9eccf4;
   text-decoration: none;
 }
@@ -414,7 +423,7 @@ h6,
 }
 
 .mobile-nav-toggle i {
-  color: #5c768d;
+  color: #e82b3d;
 }
 
 .mobile-nav-overly {
@@ -487,15 +496,14 @@ h6,
 
 #hero .carousel-content {
   text-align: left;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 @media (max-width: 992px) {
-
-  #hero,
-  #hero .carousel-item {
+  #hero, #hero .carousel-item {
     height: calc(100vh - 70px);
   }
-
   #hero .carousel-content.container {
     padding: 0 50px;
   }
@@ -520,34 +528,25 @@ h6,
   background-position: center top;
 }
 
-#hero .carousel-inner .carousel-item,
-#hero .carousel-inner .active.carousel-item-left,
-#hero .carousel-inner .active.carousel-item-right {
+#hero .carousel-inner .carousel-item, #hero .carousel-inner .active.carousel-item-left, #hero .carousel-inner .active.carousel-item-right {
   opacity: 0;
 }
 
-#hero .carousel-inner .active,
-#hero .carousel-inner .carousel-item-next.carousel-item-left,
-#hero .carousel-inner .carousel-item-prev.carousel-item-right {
+#hero .carousel-inner .active, #hero .carousel-inner .carousel-item-next.carousel-item-left, #hero .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
   transition: 0.5s;
 }
 
-#hero .carousel-inner .carousel-item-next,
-#hero .carousel-inner .carousel-item-prev,
-#hero .carousel-inner .active.carousel-item-left,
-#hero .carousel-inner .active.carousel-item-right {
+#hero .carousel-inner .carousel-item-next, #hero .carousel-inner .carousel-item-prev, #hero .carousel-inner .active.carousel-item-left, #hero .carousel-inner .active.carousel-item-right {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-prev,
-#hero .carousel-control-next {
+#hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
 }
 
-#hero .carousel-control-next-icon,
-#hero .carousel-control-prev-icon {
+#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
   font-size: 48px;
   line-height: 1;
@@ -560,7 +559,25 @@ h6,
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: GalanoGrotesqueSemiBold !important;
+  font-weight: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 15px 32px;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 0px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 0;
+  background: #e82b3d;
+}
+
+#hero .leer-get-started {
+  text-decoration: underline black;
+  font-family: GalanoGrotesqueSemiBold !important;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -569,16 +586,15 @@ h6,
   border-radius: 5px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
-  color: #fff;
+  margin: 0px;
+  color: black;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #d71231;
 }
 
 #hero .btn-get-started:hover {
-  background: #d71231;
+  background: #e82b3d;
 }
 
 @media (max-width: 768px) {
@@ -591,9 +607,7 @@ h6,
   #hero p {
     width: 30%;
   }
-
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
+  #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
   }
 }
@@ -666,11 +680,9 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
-
   .breadcrumbs ol {
     display: block;
   }
-
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -836,7 +848,6 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
-
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -848,7 +859,6 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
-
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -907,6 +917,9 @@ section {
 
 .counts {
   padding-bottom: 30px;
+  background-color: #e82b3d;
+  border-top-right-radius: 1000px 100px;
+  padding-bottom: 5%;
 }
 
 .counts .count-box {
@@ -942,19 +955,11 @@ section {
 --------------------------------------------------------------*/
 
 .iconos-services {
-  max-width: 35%;
+  max-width: 50%;
 }
 
 .iconos-services-box {
   max-width: 80%;
-
-}
-
-.services {
-  background-image: url(../img/DExpressWebsitelanzamiento_fondo_rojoEdit.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 50px;
 }
 
 .services .icon-box {
@@ -1048,8 +1053,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   background: #428bca;
   color: #fff;
 }
@@ -1148,8 +1152,7 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1214,7 +1217,6 @@ section {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
-
   .portfolio-details .portfolio-info {
     position: static;
     margin-top: 30px;
@@ -1424,15 +1426,13 @@ section {
   margin-bottom: 20px;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input::focus,
-.contact .php-email-form textarea::focus {
+.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
   background-color: #428bca;
 }
 
@@ -1460,7 +1460,6 @@ section {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -1470,7 +1469,6 @@ section {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -1657,7 +1655,7 @@ section {
 
 .box-center-services {
   position: relative;
-  left: 20%;
+  left: 18%;
 }
 
 .box-center-services-2 {
@@ -1697,31 +1695,136 @@ section {
   display: block;
 }
 
+.form-contactanos-top {
+  padding-bottom: 20px;
+}
+
+.img-footer-services {
+  background-image: url(../img/dexpress_lanzamiento_fondo_rojo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  height: 100%;
+}
+
+.section-services-2 {
+  padding-top: 150px;
+}
+
+.contactos-section {
+  background-color: #c6c6c6;
+}
+
+.container_contactanos {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.center_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.py-5 {
+  padding-top: 1rem !important;
+}
+
+.box-center-services-5 {
+  position: relative;
+  left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.box-flex-servi {
+  display: flex;
+}
+
+.box-padding {
+  padding-bottom: 2%;
+}
+
 @media screen and (max-width: 980px) {
+  .slider-text-title {
+    font-size: 10vw !important;
+  }
+  .contactos-section {
+    padding-bottom: 0%;
+  }
+  .center_button {
+    padding-top: 5%;
+  }
+  .img-center-box-mov {
+    text-align: center;
+  }
+  .form-contactanos-top {
+    padding-bottom: 0;
+  }
+  .form-contactanos-top {
+    padding-bottom: 0;
+  }
+  .contact-form-pad {
+    padding-bottom: 5%;
+  }
+  .container_contactanos_1 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .box-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .box-center-services-5 {
+    left: 0%;
+  }
+  .box-flex-servi {
+    padding-top: 5%;
+    display: block;
+  }
   .logo-mobile {
     display: block;
   }
-
+  .img-footer-services {
+    display: none;
+  }
   .box-center-services {
     position: relative;
     left: 0%;
   }
-
   .img-responsive-footer {
     max-width: 60%;
   }
-
   .salto-movil {
     display: block;
   }
-
-  .iconos-footer {
-    max-width: 10%;
+  .salto-movil-nn {
+    display: none;
   }
-
+  .iconos-footer {
+    max-width: 5%;
+  }
   .display-pc {
     display: none;
   }
+  .description-text-services {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #header {
+    background: #3339a3;
+  }
+  .text-slider {
+    font-size: 5vw !important;
+    font-family: GalanoGrotesqueLight !important;
+  }
+  .leer-get-started {
+    display: none !important;
+  }
+}
+
+.icon-margin-topt {
+  margin-top: 2%;
 }
 
 body {
@@ -1742,4 +1845,23 @@ body {
 #container-box {
   clear: both;
   height: 100px;
+}
+
+.img-container-topt {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.img-container-topt-phone {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 5%;
+}
+
+.img-container-topt-1 {
+  width: 20px;
+  height: 30px;
+  margin-right: 10px;
 }

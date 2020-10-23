@@ -9,8 +9,9 @@
       <h4 class="encuentranos-text-h4">Encuéntranos en <img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png">
         <img class="iconos-footer" src="assets/img/iconos/dexpress_facebook.png">
         <img class="iconos-footer" src="assets/img/iconos/dexpress_instagram.png">
-        <a style="color: transparent;">_____</a>
-      <a class="encuentranos-enlaces">CENTRO DE AYUDA | </a><a class="encuentranos-enlaces">RESTRICCIONES DE TARIFA | </a><a class="encuentranos-enlaces">TÉRMINOS Y CONDICIONES | </a><a class="encuentranos-enlaces">PROTECCIÓN DE DATOS | </a><a class="encuentranos-enlaces">MAPA DEL SITIO | </a><a class="encuentranos-enlaces">LIBRO DE RECLAMACIONES</a></h4>
+        <a class="salto-movil-nn" style="color: transparent;">_____</a>
+        <br class="salto-movil">
+        <a class="encuentranos-enlaces">CENTRO DE AYUDA | </a><a class="encuentranos-enlaces">RESTRICCIONES DE TARIFA | </a><a class="encuentranos-enlaces">TÉRMINOS Y CONDICIONES | </a><a class="encuentranos-enlaces">PROTECCIÓN DE DATOS | </a><a class="encuentranos-enlaces">MAPA DEL SITIO | </a><a class="encuentranos-enlaces">LIBRO DE RECLAMACIONES</a></h4>
     </div>
   </div>
   <div class="container">
