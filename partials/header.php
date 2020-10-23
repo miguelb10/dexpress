@@ -4,28 +4,20 @@
             <div class="col col-lg-5">
                 <img style="max-width: 50%;" src="assets/img/logo-dexpresshf.png">
             </div>
-            <div class="col col-lg-2">
+            <div class="col col-lg-1">
             </div>
-            <div class="col col-lg-3 icon-margin-topt" style="display: flex;">
+            <div class="col col-lg-3 icon-margin-topt" style="display: flex; padding-left: 5%;">
                 <img class="img-container-topt-1" src="assets/img/iconos/dexpress_direccion.png">
-                <div class="text-direct-header">Jr. Las Magnolias Nro. 168 B
+                <div class="text-direct-header">Jr. Las Magnolias Nro. 168 B</br>
                     Independencia - Lima
                 </div>
             </div>
-            <div class="col col-lg-2 icon-margin-topt" style="display: flex;">
+            <div class="col col-lg-3 icon-margin-topt" style="display: flex; padding-left: 8%;">
                 <img class="img-container-topt" src="assets/img/iconos/dexpress_horario.png">
-                <div class="text-direct-header">Lun - Vie: 8:30 - 18:30
+                <div class="text-direct-header">Lun - Vie: 8:30 - 18:30</br>
                     Sáb: Medio día</div>
             </div>
         </div>
-
-        <!--<div class="social-links float-right">
-                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="#" class="skype"><i class="icofont-skype"></i></a>
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
-            </div>-->
     </div>
 </section>
 <header id="header">
