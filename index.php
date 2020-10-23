@@ -108,7 +108,7 @@
     <section>
 
         <div class="container box-padding">
-            <h1 class="text-center title title-services-box">Servicios</h1>
+            <h1 class="text-center title title-services-box-1">Servicios</h1>
             <div class="row box-center-services-5">
                 <div class="col-lg-5 col-md-6 icon-box box-flex-servi" data-aos="fade-up">
                     <div class="img-center-box-mov">
