@@ -24,18 +24,18 @@
 }
 
 .slider-text-title {
-  font-size: 3vw !important;
+  font-size: 3.5vw !important;
   font-family: GalanoGrotesqueSemiBold !important;
 }
 
 .text-slider {
-  font-size: 1vw !important;
+  font-size: 1.3vw !important;
   font-family: GalanoGrotesqueLight !important;
 }
 
 .title-services {
   color: black !important;
-  font-size: 25px !important;
+  font-size: 22px !important;
   font-family: GalanoGrotesqueSemiBold !important;
 }
 
@@ -48,7 +48,7 @@
 
 .description-text-services {
   color: black !important;
-  font-size: 18px !important;
+  font-size: 15px !important;
   font-family: GalanoGrotesqueMedium !important;
 }
 
