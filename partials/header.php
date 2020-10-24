@@ -28,7 +28,7 @@
         <nav class="nav-menu d-none d-lg-block text-header">
             <ul>
                 <li class="active"><a class="text-header" href="#topbar">Inicio</a></li>
-                <li><a class="text-header" href="#header">Quiénes Somos</a></li>
+                <li><a class="text-header" href="#about">Quiénes Somos</a></li>
                 <li><a class="text-header" href="#vision">Visión</a></li>
                 <li><a class="text-header" href="#mision">Misión</a></li>
                 <li><a class="text-header" href="#services">Servicios</a></li>

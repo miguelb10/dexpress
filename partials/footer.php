@@ -11,7 +11,7 @@
         <img class="iconos-footer" src="assets/img/iconos/dexpress_instagram.png">
         <a class="salto-movil-nn" style="color: transparent;">______________________________________________________________</a>
         <br class="salto-movil">
-        <a class="encuentranos-enlaces">RESTRICCIONES DE TARIFA | </a><a class="encuentranos-enlaces">TÉRMINOS Y CONDICIONES | </a><a class="encuentranos-enlaces">CONTÁCTANOS</a></h4>
+        <a class="encuentranos-enlaces">RESTRICCIONES DE TARIFA | </a><a class="encuentranos-enlaces">TÉRMINOS Y CONDICIONES | </a><a href="#contactanos" class="encuentranos-enlaces">CONTÁCTANOS</a></h4>
     </div>
   </div>
   <div class="container">

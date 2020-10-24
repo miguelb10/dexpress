@@ -13,6 +13,15 @@
   src: url(../../fonts/GalanoGrotesqueMedium.otf);
 }
 
+.color-title-mi-vi {
+  font-size: 1.5rem;
+  color: #444 !important;
+}
+
+.color-title-mi-vi-t {
+  color: #444 !important;
+}
+
 .description-text-box-ser {
   color: #646464;
   font-family: GalanoGrotesqueSemiBold !important;
@@ -50,6 +59,22 @@
   color: #646464;
   text-align: left;
   font-family: GalanoGrotesqueSemiBold !important;
+}
+
+.margin-text-about {
+  font-family: GalanoGrotesqueMedium !important;
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+  color: black;
+}
+
+.vi-mi-background {
+  background-color: #c6c6c6;
+}
+
+.text-about-color {
+  color: black !important;
 }
 
 .description-text-services {
@@ -101,7 +126,6 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   color: #444;
 }
 
@@ -1690,6 +1714,7 @@ section {
 }
 
 .encuentranos-text-h4 {
+  padding-top: 1%;
   font-family: GalanoGrotesqueSemiBold !important;
   color: white;
   font-size: 15px;
@@ -1752,10 +1777,24 @@ section {
 .box-padding {
   padding-bottom: 2%;
 }
-.img-center-box-mov{
+
+.img-center-box-mov {
   padding-right: 2%;
 }
+
+@media screen and (max-width: 1400px) {
+  .display-pc {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 980px) {
+  .margin-text-about {
+    font-size: 18px;
+  }
+  .color-title-mi-vi {
+    font-size: 18px;
+  }
   .slider-text-title {
     font-size: 10vw !important;
   }
@@ -1835,7 +1874,7 @@ section {
     margin-top: 10% !important;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: -10%;
+    margin-bottom: -5%;
   }
   #hero .carousel-item {
     background-image: none !important;

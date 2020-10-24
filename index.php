@@ -27,7 +27,6 @@
     <section id="hero">
         <div class="hero-container">
             <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="carousel-container">
@@ -38,21 +37,49 @@
                                     operaciones logísticas.</p>
                                 <div style="flex: auto; padding-top: 1%;">
                                     <a href="#contactanos" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
-                                    <a href="#services" class="leer-get-started animate__animated animate__fadeInUp scrollto">Leer más</a>
+                                    <a href="#about" class="leer-get-started animate__animated animate__fadeInUp scrollto">Leer más</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h1 class="text-center title title-services-box-1 text-about-color">Quiénes Somos</h1>
+            </br></br>
+            <h4 class="margin-text-about">
+                Somos una empresa peruana especializada en brindar servicios de distribución, transporte y comercialización de alimentos. Contamos con más de 8 años de experiencia en la administración de operaciones logísticas y el reparto de alimentos por Delivery de empresas en los sectores de alimentos, restaurantes, fast food y salud.
+                </br></br>
+                Contamos con protocolos y herramientas tecnológicas de primer nivel que aseguran la eficiencia de nuestras operaciones.
+                </br></br>
+                En DExpress Perú sabemos que lo más importante es entregar un servicio competitivo y oportuno a nuestros clientes.
+                </br></br>
+                Para DExpress Perú el servicio es una vocación y una manera de trabajar. Resolviendo situaciones en tiempo real, a través de nuestras gestiones con personal altamente capacitado.
+            </h4>
+        </div>
+    </section>
+    <section id="vision" class="vi-mi-background">
+        <div class="container">
+            <h1 class="text-center title title-services-box-1 color-title-mi-vi-t">Nuestra Visión</h1>
+            </br></br>
+            <h4 class="margin-text-about color-title-mi-vi">
+                Que DExpress Perú sea reconocida como una empresa altamente confiable, ofreciendo servicios de transporte de alimentos y soluciones logísticas con miras a expandir nuestro negocio a nivel internacional; convirtiéndonos en una corporación con estrategias de management.
+            </h4>
+        </div>
+    </section>
+    <section id="mision" class="vi-mi-background">
+        <div class="container">
+            <h1 class="text-center title title-services-box-1 color-title-mi-vi-t">Nuestra Misión</h1>
+            </br></br>
+            <ul class="margin-text-about color-title-mi-vi">
+                <li>Brindar servicios de distribución, transporte y comercialización de alimentos con calidad, eficiencia y de acuerdo a las necesidades de nuestros clientes.</li>
+                <li>Convertirnos en su socio estratégico.</li>
+                <li>Acompañar y guiar el crecimiento de nuestros colaboradores</li>
+                <li>Alcanzar metas de innovación y desarrollo.</li>
+            </ul>
         </div>
     </section>
     <section id="services" class="services">
@@ -215,6 +242,31 @@
 
     <?php require 'partials/footer.php'; ?>
 
+    <div class="modal fade" id="ModalConf" tabindex="-1" role="dialog" aria-labelledby="ModalConf" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h5 class="title-modal_h5 text-center">Su mensaje ha sido enviado!</h5>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ModalErr" tabindex="-1" role="dialog" aria-labelledby="ModalErr" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h5 class="title-modal_h5 text-center">Ocurrió un error, por favor verifique su conexión a Internet</h5>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -225,6 +277,8 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
 </body>
 
 </html>
