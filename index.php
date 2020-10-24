@@ -14,21 +14,22 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <a href="https://api.whatsapp.com/send?phone=51961767589&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20DExpress." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <?php require 'partials/header.php'; ?>
-
-
-    <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
             <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active" style="background-image: url('assets/img/slide/cabecera_1.jpg');">
+                    <div class="carousel-item active">
                         <div class="carousel-container">
                             <div class="carousel-content container">
                                 <h2 class="animate__animated animate__fadeInDown slider-text-title">Bienvenido a</br>DExpress Perú</h2>
@@ -37,7 +38,7 @@
                                     operaciones logísticas.</p>
                                 <div style="flex: auto; padding-top: 1%;">
                                     <a href="#contactanos" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
-                                    <a href="#services" class="leer-get-started">Leer más</a>
+                                    <a href="#services" class="leer-get-started animate__animated animate__fadeInUp scrollto">Leer más</a>
                                 </div>
                             </div>
                         </div>
@@ -53,9 +54,7 @@
                 </a>
             </div>
         </div>
-    </section><!-- End Hero -->
-
-    <!-- ======= Services Section ======= -->
+    </section>
     <section id="services" class="services">
         <div class="container">
             <div class="row">
@@ -106,7 +105,6 @@
         </div>
     </section>
     <section>
-
         <div class="container box-padding">
             <h1 class="text-center title title-services-box-1">Servicios</h1>
             <div class="row box-center-services-5">
@@ -115,6 +113,7 @@
                         <img class="iconos-services-gris" src="assets/img/iconos/dexpress_logistica_gris.png">
                     </div>
                     <div>
+                        <br class="salto-movil-nn"></br>
                         <h4 class="title title-services-box">Logística</h4>
                         <p class="description-text-box-ser">Gestión y agilidad en la logística del transporte y
                             abastecimientos farmaceúticos, alimentacios para
@@ -126,6 +125,7 @@
                         <img class="iconos-services-gris" src="assets/img/iconos/dexpress_alimentos_gris.png">
                     </div>
                     <div>
+                        <br class="salto-movil-nn"></br>
                         <h4 class="title title-services-box">Distribución de alimentos</h4>
                         <p class="description-text-box-ser">Contamos con más de 8 años en el mercado.
                             Transportando alimentos para distintas empresas
@@ -136,6 +136,16 @@
             <div style="text-align: center;">
                 <a href="#services" class="btn more-services">Conoce nuestros servicios</a>
             </div>
+        </div>
+    </section>
+    <section class="experiencia text-center">
+        <div class="container">
+            <font class="title-experiencia">Experiencia</font>
+            <font class="text-experiencia"> | Somos una empresa constituida y especializada en el servicio de delivery de alimentos con más de 8 años en el mercado.</font>
+            <font style="color: black;">__________</font>
+            <br class="salto-movil">
+            <br class="salto-movil">
+            <a href="#about" class="btn experiencia-button">Ver más</a>
         </div>
     </section>
     <section id="contactanos" class="contactos-section">
@@ -190,19 +200,21 @@
             </div>
         </div>
     </section>
-    <section class="experiencia text-center">
+    <section id="ubicanos">
         <div class="container">
-            <font class="title-experiencia">Experiencia</font>
-            <font class="text-experiencia"> | Somos una empresa constituida y especializada en el servicio de delivery de alimentos con más de 8 años en el mercado.</font>
-            <font style="color: black;">__________</font>
-            <br class="salto-movil">
-            <br class="salto-movil">
-            <a href="#about" class="btn experiencia-button">Ver más</a>
+            <div class="container_contactanos">
+                <h1 class="title_contactanos">Ubícanos</h1>
+            </div>
+            <div class="row container_googlemaps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.8858873555446!2d-77.043624484577!3d-11.91302914267204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d05bd7809a19%3A0x27bab807a9b827c!2sJr.%20Las%20Magnolias%20168%2C%20Comas%2015313!5e0!3m2!1ses-419!2spe!4v1603498856095!5m2!1ses-419!2spe" class="googleMaps" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <div class="container_googlemaps">
         </div>
     </section>
 
-
     <?php require 'partials/footer.php'; ?>
+
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>

@@ -29,16 +29,19 @@
             <ul>
                 <li class="active"><a class="text-header" href="#topbar">Inicio</a></li>
                 <li><a class="text-header" href="#header">Quiénes Somos</a></li>
+                <li><a class="text-header" href="#vision">Visión</a></li>
+                <li><a class="text-header" href="#mision">Misión</a></li>
                 <li><a class="text-header" href="#services">Servicios</a></li>
                 <li><a class="text-header" href="#contactanos">Contáctanos</a></li>
+                <li><a class="text-header" href="#ubicanos">Ubícanos</a></li>
             </ul>
         </nav>
         <nav class="text-header  float-right display-pc">
             <ul class="unique-topt">
                 <img class="img-container-topt-phone" src="assets/img/iconos/dexpress_contac_center_header.png">
-                <a class="text-contacto-telf">
+                <a class="text-contacto-telf" href="mailto:deliveryexpress@dexpress.com.pe">
                     961767589 | 993252225 </br>
-                    <p style="font-size: 12px; padding-left: 0px;">delivery.driver.express@gmail.com
+                    <p style="font-size: 12px; padding-left: 0px;">deliveryexpress@dexpress.com.pe
                     </p>
                 </a>
             </ul>
