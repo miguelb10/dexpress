@@ -32,7 +32,7 @@
                 <li><a class="text-header" href="#vision">Visión y Misión</a></li>
                 <li><a class="text-header" href="#services">Servicios</a></li>
                 <li><a class="text-header" href="#contactanos">Contáctanos</a></li>
-                <li><a class="text-header" href="#ubicanos">Ubícanos</a></li>
+                <!--<li><a class="text-header" href="#ubicanos">Ubícanos</a></li>-->
             </ul>
         </nav>
         <nav class="text-header  float-right display-pc">

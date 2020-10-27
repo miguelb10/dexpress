@@ -9,7 +9,7 @@
       <h4 class="encuentranos-text-h4">Encuéntranos en <img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png">
         <img class="iconos-footer" src="assets/img/iconos/dexpress_facebook.png">
         <img class="iconos-footer" src="assets/img/iconos/dexpress_instagram.png">
-        <a class="salto-movil-nn" style="color: transparent;">______________________________________________________________</a>
+        <a class="salto-movil-nn" style="color: transparent;">___________________________________</a>
         <br class="salto-movil">
         <a class="encuentranos-enlaces">RESTRICCIONES DE TARIFA | </a><a class="encuentranos-enlaces">TÉRMINOS Y CONDICIONES | </a><a href="#contactanos" class="encuentranos-enlaces">CONTÁCTANOS</a></h4>
     </div>
