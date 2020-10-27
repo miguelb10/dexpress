@@ -227,6 +227,7 @@
             </div>
         </div>
     </section>
+    <!--
     <section id="ubicanos">
         <div class="container">
             <div class="container_contactanos">
@@ -238,7 +239,7 @@
         </div>
         <div class="container_googlemaps">
         </div>
-    </section>
+    </section>-->
 
     <?php require 'partials/footer.php'; ?>
 

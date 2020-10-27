@@ -28,7 +28,7 @@
 }
 
 .text-header {
-  font-size: 20px !important;
+  font-size: 18px !important;
   font-family: GalanoGrotesqueSemiBold !important;
 }
 
@@ -1782,7 +1782,7 @@ section {
   padding-right: 2%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
   .display-pc {
     display: none;
   }

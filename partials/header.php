@@ -9,7 +9,7 @@
             <div class="col col-lg-3 icon-margin-topt" style="display: flex; padding-left: 5%;">
                 <img class="img-container-topt-1" src="assets/img/iconos/dexpress_direccion.png">
                 <div class="text-direct-header">Jr. Las Magnolias Nro. 168 B</br>
-                    Independencia - Lima
+                    Lima-Perú
                 </div>
             </div>
             <div class="col col-lg-3 icon-margin-topt" style="display: flex; padding-left: 8%;">
@@ -23,14 +23,13 @@
 <header id="header">
     <div class="container">
         <div class="logo float-left logo-mobile">
-                <img src="assets/img/logo-dexpresshf.png">
+            <img src="assets/img/logo-dexpresshf.png">
         </div>
         <nav class="nav-menu d-none d-lg-block text-header">
             <ul>
                 <li class="active"><a class="text-header" href="#topbar">Inicio</a></li>
                 <li><a class="text-header" href="#about">Quiénes Somos</a></li>
-                <li><a class="text-header" href="#vision">Visión</a></li>
-                <li><a class="text-header" href="#mision">Misión</a></li>
+                <li><a class="text-header" href="#vision">Visión y Misión</a></li>
                 <li><a class="text-header" href="#services">Servicios</a></li>
                 <li><a class="text-header" href="#contactanos">Contáctanos</a></li>
                 <li><a class="text-header" href="#ubicanos">Ubícanos</a></li>
