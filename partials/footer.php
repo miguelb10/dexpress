@@ -6,7 +6,8 @@
   </div>
   <div class="footer-middle-text footer-middle text-center">
     <div class="container">
-      <h4 class="encuentranos-text-h4">Encuéntranos en <img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png">
+      <h4 class="encuentranos-text-h4">Encuéntranos en
+        <a href="https://www.linkedin.com/in/dexpress-per%C3%BA-5aa8b51ba/" target="_blank"><img class="iconos-footer" src="assets/img/iconos/dexpress_linkedin.png"></a>
         <a href="https://www.facebook.com/DExpress-Perú-104388888137613" target="_blank"><img class="iconos-footer" src="assets/img/iconos/dexpress_facebook.png"></a>
         <a href="https://www.instagram.com/dexpressperu/" target="_blank"><img class="iconos-footer" src="assets/img/iconos/dexpress_instagram.png"></a>
         <a class="salto-movil-nn" style="color: transparent;">___________________________________</a>
@@ -15,7 +16,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="copyright">JR. LAS MAGNOLIAS NRO. 168 B INDEPENDENCIA - LIMA
+    <div class="copyright">JR. LAS MAGNOLIAS NRO. 168 B LIMA - PERÚ
     </div>
     <div class="credits">
       &copy; 2020 Driver Express Perú SAC - All rights reserved
