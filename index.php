@@ -46,8 +46,8 @@
             </div>
         </div>
     </section>
-    <section id="about">
-        <div class="container">
+    <section id="about" class="about">
+        <div class="container about-style">
             <h1 class="text-center title title-services-box-1 text-about-color">Quiénes Somos</h1>
             </br></br>
             <h4 class="margin-text-about">
@@ -61,25 +61,29 @@
             </h4>
         </div>
     </section>
-    <section id="vision" class="vi-mi-background">
+    <section id="vimi" class="countst">
         <div class="container">
-            <h1 class="text-center title title-services-box-1 color-title-mi-vi-t">Nuestra Visión</h1>
-            </br></br>
-            <h4 class="margin-text-about color-title-mi-vi">
-                Que DExpress Perú sea reconocida como una empresa altamente confiable, ofreciendo servicios de transporte de alimentos y soluciones logísticas con miras a expandir nuestro negocio a nivel internacional; convirtiéndonos en una corporación con estrategias de management.
-            </h4>
-        </div>
-    </section>
-    <section id="mision" class="vi-mi-background">
-        <div class="container">
-            <h1 class="text-center title title-services-box-1 color-title-mi-vi-t">Nuestra Misión</h1>
-            </br></br>
-            <ul class="margin-text-about color-title-mi-vi">
-                <li>Brindar servicios de distribución, transporte y comercialización de alimentos con calidad, eficiencia y de acuerdo a las necesidades de nuestros clientes.</li>
-                <li>Convertirnos en su socio estratégico.</li>
-                <li>Acompañar y guiar el crecimiento de nuestros colaboradores</li>
-                <li>Alcanzar metas de innovación y desarrollo.</li>
-            </ul>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up">
+                    <div class="count-box size-box-vi-mi">
+                        <h1 class="text-center title title-services-box-1 color-title-mi-vi-t vi-mi-title-box">Visión</h1>
+                        <h4 class="margin-text-about margin-text-about-mov color-title-mi-vi vi-mi-text-box">
+                            Que DExpress Perú sea reconocida como una empresa altamente confiable, ofreciendo servicios de transporte de alimentos y soluciones logísticas con miras a expandir nuestro negocio a nivel internacional; convirtiéndonos en una corporación con estrategias de management.
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box size-box-vi-mi">
+                        <h1 class="text-center title title-services-box-1 color-title-mi-vi-t vi-mi-title-box">Misión</h1>
+                        <ul class="margin-text-about margin-text-about-mov color-title-mi-vi vi-mi-text-box">
+                            <li>Brindar servicios de distribución, transporte y comercialización de alimentos con calidad, eficiencia y de acuerdo a las necesidades de nuestros clientes.</li>
+                            <li>Convertirnos en su socio estratégico.</li>
+                            <li>Acompañar y guiar el crecimiento de nuestros colaboradores</li>
+                            <li>Alcanzar metas de innovación y desarrollo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="services" class="services">
@@ -260,6 +264,44 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <h5 class="title-modal_h5 text-center">Ocurrió un error, por favor verifique su conexión a Internet</h5>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalTermCond" tabindex="-1" role="dialog" aria-labelledby="ModalTermCond" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="title-modal-text-1 text-center">TÉRMINOS Y CONDICIONES</h4>
+                    <h5 class="title-modal-text-1">La contratación y adquisición de los servicios de DExpress Perú implica total conocimiento y aceptación de las condiciones abajo especificadas de acuerdo a las disposiciones legales y reglamentarias vigentes; por tal motivo, sugerimos que tengan en cuenta las siguientes consideraciones:</h5>
+                    <ol class="enum-text">
+                        <li>El servicio adquirido tiene dos modalidades como mínimo: Servicio Part Time, que comprende 5 horas diarias, 7 veces por semana y el servicio Full time que comprende de 8 a 9 horas diarias por semana.</li>
+                        <li>En el momento de emisión del presente contrato el cliente deberá verificar bajo su responsabilidad que todos los datos consignados en éste sean conformes y de acuerdo a su solicitud y acepta las cláusulas generales de contratación.</li>
+                        <li>Para acceder a los servicios contratados con la empresa, esta deberá ser establecida de forma mensual como mínimo o extender el tiempo de vigencia según sea la necesidad del cliente.</li>
+                        <li>En caso de presentarse alguna eventualidad en el lugar de origen o durante el viaje, que impida la prestación del servicio, la Empresa realizará el transbordo en unidades estándar (propias o terceras).</li>
+                        <li>La empresa no se hace responsable de la performance de internet en las máquinas de usuarios, de la red de los operadores o fallas en las pasarelas de pago para pagos online que no se logre concretar la venta debido a fallas en la comunicación de enlace.</li>
+                        <li>Las tarifas son referenciales y pueden variar de acuerdo a la temporada sin previo aviso.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalTarifa" tabindex="-1" role="dialog" aria-labelledby="ModalTarifa" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h4 class="title-modal-text-1 text-center">RESTRICCIONES DE TARIFAS</h4>
+                    <h5 class="enum-text">Porque pensamos en siempre entregar un servicio accesible DExpress Perú ofrece una tarifa plana sin comisiones en comparación con la ofrecida por otras empresas.
+                        Brindándoles así el mejor servicio al mejor precio con la seguridad y cumpliendo todos los protocolos exigidos para que su producto llegue de forma óptima al destino solicitado.
+                    </h5>
                 </div>
                 <div class="modal-footer" style="justify-content: center;">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>

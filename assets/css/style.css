@@ -13,6 +13,10 @@
   src: url(../../fonts/GalanoGrotesqueMedium.otf);
 }
 
+.enum-text {
+  font-family: GalanoGrotesqueLight !important;
+}
+
 .color-title-mi-vi {
   font-size: 1.5rem;
   color: #444 !important;
@@ -67,6 +71,11 @@
   margin-left: 8%;
   margin-right: 8%;
   color: black;
+}
+
+.title-modal-text-1 {
+  text-align: justify;
+  font-family: GalanoGrotesqueSemiBold !important;
 }
 
 .vi-mi-background {
@@ -439,11 +448,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding-left: 20px;
 }
 
+.modal-dialog-centered {
+  max-width: 1000px !important;
+}
+
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
   top: 20px;
-  z-index: 9998;
+  z-index: 100;
   border: 0;
   background: none;
   font-size: 24px;
@@ -724,10 +737,6 @@ section {
 # About Us
 --------------------------------------------------------------*/
 
-.about {
-  padding-bottom: 30px;
-}
-
 .about .container {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
@@ -978,7 +987,51 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.vi-mi-title-box {
+  line-height: 2;
+}
+
+.vi-mi-text-box {
+  line-height: 1.5;
+}
+
+.size-box-vi-mi {
+  min-height: 500px;
+}
+
+/*count 2*/
+
+.countst {
+  background-color: #c6c6c6;
+}
+
+.countst .count-box {
+  box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
+  padding: 0px 30px 30px 30px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.countst .count-box i {
+  display: block;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+.countst .count-box span {
+  font-size: 42px;
+  display: block;
+  font-weight: 700;
+  color: #1c5c93;
+}
+
+.countst .count-box p {
+  padding: 0;
+  margin: 0;
   font-size: 14px;
 }
 
@@ -1695,6 +1748,11 @@ section {
   left: 25%;
 }
 
+.about-style {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 .img-responsive-footer {
   max-width: 30%;
 }
@@ -1789,8 +1847,23 @@ section {
 }
 
 @media screen and (max-width: 980px) {
+  .about-style {
+    box-shadow: none !important;
+    padding-bottom: 5%;
+  }
+  .vi-mi-title-box {
+    padding-top: 30px;
+  }
+  .size-box-vi-mi {
+    min-height: 0 !important;
+  }
   .margin-text-about {
     font-size: 18px;
+  }
+  .margin-text-about-mov {
+    font-size: 18px;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
   }
   .color-title-mi-vi {
     font-size: 18px;
