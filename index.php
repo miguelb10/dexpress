@@ -46,51 +46,61 @@
             </div>
         </div>
     </section>
-    <section id="about" class="about">
-        <div class="container about-style">
-            <h1 class="text-center title title-services-box-1 text-about-color">Quiénes Somos</h1>
-            </br></br>
-            <h4 class="margin-text-about">
-                Somos una empresa peruana especializada en brindar servicios de distribución, transporte y comercialización de alimentos. Contamos con más de 8 años de experiencia en la administración de operaciones logísticas y el reparto de alimentos por Delivery de empresas en los sectores de alimentos, restaurantes, fast food y salud.
-                </br></br>
-                Contamos con protocolos y herramientas tecnológicas de primer nivel que aseguran la eficiencia de nuestras operaciones.
-                </br></br>
-                En DExpress Perú sabemos que lo más importante es entregar un servicio competitivo y oportuno a nuestros clientes.
-                </br></br>
-                Para DExpress Perú el servicio es una vocación y una manera de trabajar. Resolviendo situaciones en tiempo real, a través de nuestras gestiones con personal altamente capacitado.
-            </h4>
-        </div>
-    </section>
-    <section id="vimi" class="countst">
-        <div class="container">
+    <section>
+        <div class="container" id="select">
             <div class="row">
-                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up">
-                    <div class="count-box size-box-vi-mi">
-                        <h1 class="text-center title title-services-box-1 color-title-mi-vi-t vi-mi-title-box">Visión</h1>
-                        <h4 class="margin-text-about margin-text-about-mov color-title-mi-vi vi-mi-text-box">
-                            Que DExpress Perú sea reconocida como una empresa altamente confiable, ofreciendo servicios de transporte de alimentos y soluciones logísticas con miras a expandir nuestro negocio a nivel internacional; convirtiéndonos en una corporación con estrategias de management.
-                        </h4>
+                <div class="col-lg-5 col-md-6">
+                    <h2 class="black-text-title">DExpress proporciona de
+                        manera eficiente los servicios
+                        de entrega para sus necesidades
+                        personales y comerciales.</h2>
+                    <div class="row margin-top-box-t">
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_car.png" />
+                            <h6 class="black-text-title">Envío en auto</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_truck.png" />
+                            <h6 class="black-text-title">Envío en Camioneta</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-center margin-12-center">
+                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_moto.png" />
+                            <h6 class="black-text-title">Envío en moto</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="count-box size-box-vi-mi">
-                        <h1 class="text-center title title-services-box-1 color-title-mi-vi-t vi-mi-title-box">Misión</h1>
-                        <ul class="margin-text-about margin-text-about-mov color-title-mi-vi vi-mi-text-box">
-                            <li>Brindar servicios de distribución, transporte y comercialización de alimentos con calidad, eficiencia y de acuerdo a las necesidades de nuestros clientes.</li>
-                            <li>Convertirnos en su socio estratégico.</li>
-                            <li>Acompañar y guiar el crecimiento de nuestros colaboradores</li>
-                            <li>Alcanzar metas de innovación y desarrollo.</li>
-                        </ul>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-5 col-md-6">
+                    <h2 class="black-text-title">Por qué elegirnos</h2>
+                    <h5 class="text-box-des">Le garantizamos que su producto se
+                        entregará de forma segura y puntual.</h5>
+                    <div class="row margin-top-box-t">
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace align-bo-to-box" src="assets/img/iconos/iconos_dexpress_time.png" />
+                            <h6 class="black-text-title">El tiempo de entrega</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace align-bo-to-box" src="assets/img/iconos/iconos_dexpress_segurity.png" />
+                            <h6 class="black-text-title">100% confiable y profesional</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace align-bo-to-box" src="assets/img/iconos/iconos_dexpress_seguimiento.png" />
+                            <h6 class="black-text-title">Seguimiento de entregas</h6>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace align-bo-to-box" src="assets/img/iconos/iconos_dexpress_days.png" />
+                            <h6 class="black-text-title">Entregamos los 7 días de la semana</h6>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="services" class="services">
+    <section id="services" class="services counts">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                    <img class="iconos-services" src="assets/img/iconos/dexpress_alimentos.png">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_alimentos_white.png">
                     <h4 class="title title-services">Distribución de alimentos</h4>
                     <p class="description-text-services">Contamos con más de 8 años en el mercado,
                         transportando alimentos para distintas empresas
@@ -98,14 +108,14 @@
                         tarifa plana sin comisiones. </p>
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                    <img class="iconos-services" src="assets/img/iconos/dexpress_logistica.png">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_logistica_white.png">
                     <h4 class="title title-services">Logística</h4>
                     <p class="description-text-services">Gestión y agilidad en la logística del transporte y
                         abastecimientos farmaceúticos, alimentacios para
                         consolidar la entrega de sus productos. </p>
                 </div>
                 <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                    <img class="iconos-services" src="assets/img/iconos/dexpress_contac_center.png">
+                    <img class="iconos-services" src="assets/img/iconos/dexpress_contac_center_white.png">
                     <h4 class="title title-services">Contact Center</h4>
                     <p class="description-text-services">Atención telefónica personalizada, recepción de
                         canal web y/o email de todos sus envíos.</p>
@@ -113,7 +123,7 @@
             </div>
         </div>
     </section>
-    <section class="counts section-services-2">
+    <!--<section class="counts section-services-2">
         <div class="container box-padding">
             <div class="row box-center-services">
                 <div class="col-lg-4 col-md-4 text-center" data-aos="fade-up">
@@ -134,10 +144,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <section>
         <div class="container box-padding">
-            <h1 class="text-center title title-services-box-1">Servicios</h1>
+            <h1 class="text-center title title-services-box-1 text-color-gris">Servicios</h1>
             <div class="row box-center-services-5">
                 <div class="col-lg-5 col-md-6 icon-box box-flex-servi" data-aos="fade-up">
                     <div class="img-center-box-mov">
@@ -169,6 +179,66 @@
             </div>
         </div>
     </section>
+    <!--<section id="about" class="about">
+        <div class="container about-style">
+            <h1 class="text-center title title-services-box-1 text-about-color">Quiénes Somos</h1>
+            </br></br>
+            <h4 class="margin-text-about">
+                Somos una empresa peruana especializada en brindar servicios de distribución, transporte y comercialización de alimentos. Contamos con más de 8 años de experiencia en la administración de operaciones logísticas y el reparto de alimentos por Delivery de empresas en los sectores de alimentos, restaurantes, fast food y salud.
+                </br></br>
+                Contamos con protocolos y herramientas tecnológicas de primer nivel que aseguran la eficiencia de nuestras operaciones.
+                </br></br>
+                En DExpress Perú sabemos que lo más importante es entregar un servicio competitivo y oportuno a nuestros clientes.
+                </br></br>
+                Para DExpress Perú el servicio es una vocación y una manera de trabajar. Resolviendo situaciones en tiempo real, a través de nuestras gestiones con personal altamente capacitado.
+            </h4>
+        </div>
+    </section>-->
+    <section class="countst">
+        <div class="container">
+            <h1 class="title-services-box-1" id="about">Quiénes Somos</h1>
+            <h6 class="margin-text-about">
+                Somos una empresa peruana especializada en brindar servicios de distribución, transporte y comercialización de alimentos. Contamos con más de 8
+                años de experiencia en la administración de operaciones logísticas y el reparto de alimentos por Delivery de empresas en los sectores de alimentos,
+                restaurantes, fast food y salud. Contamos con protocolos y herramientas tecnológicas de primer nivel que aseguran la eficiencia de nuestras
+                operaciones. En DExpress Perú sabemos que lo más importante es entregar un servicio competitivo y oportuno a nuestros clientes.
+                </br></br>
+                Para DExpress Perú el servicio es una vocación y una manera de trabajar. Resolviendo situaciones en tiempo real, a través de nuestras gestiones con
+                personal altamente capacitado.
+            </h6>
+            <h1 class="title-services-box-1" id="vimi">Visión</h1>
+            <h6 class="margin-text-about">
+                Que DExpress Perú sea reconocida como una empresa altamente confiable, ofreciendo servicios de transporte de alimentos y soluciones logísticas con
+                miras a expandir nuestro negocio a nivel internacional; convirtiéndonos en una corporación con estrategias de management.
+            </h6>
+            <h1 class="title-services-box-1">Misión</h1>
+            <h6 class="margin-text-about">
+                Brindar servicios de distribución, transporte y comercialización de alimentos con calidad, eficiencia y de acuerdo a las necesidades de nuestros clientes.
+                Convertirnos en su socio estratégico. Acompañar y guiar el crecimiento de nuestros colaboradores. Alcanzar metas de innovación y desarrollo.
+            </h6>
+            <!--<div class="row">
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up">
+                    <div class="count-box size-box-vi-mi">
+                        <h1 class="text-center title title-services-box-1 color-title-mi-vi-t vi-mi-title-box">Visión</h1>
+                        <h4 class="margin-text-about margin-text-about-mov color-title-mi-vi vi-mi-text-box">
+                            Que DExpress Perú sea reconocida como una empresa altamente confiable, ofreciendo servicios de transporte de alimentos y soluciones logísticas con miras a expandir nuestro negocio a nivel internacional; convirtiéndonos en una corporación con estrategias de management.
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box size-box-vi-mi">
+                        <h1 class="text-center title title-services-box-1 color-title-mi-vi-t vi-mi-title-box">Misión</h1>
+                        <ul class="margin-text-about margin-text-about-mov color-title-mi-vi vi-mi-text-box">
+                            <li>Brindar servicios de distribución, transporte y comercialización de alimentos con calidad, eficiencia y de acuerdo a las necesidades de nuestros clientes.</li>
+                            <li>Convertirnos en su socio estratégico.</li>
+                            <li>Acompañar y guiar el crecimiento de nuestros colaboradores</li>
+                            <li>Alcanzar metas de innovación y desarrollo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
     <section class="experiencia text-center">
         <div class="container">
             <font class="title-experiencia">Experiencia</font>
@@ -179,7 +249,7 @@
             <a href="#about" class="btn experiencia-button">Ver más</a>
         </div>
     </section>
-    <section id="contactanos" class="contactos-section">
+    <section id="contact" class="contactos-section">
         <div class="container_contactanos">
             <h1 class="title_contactanos">Contáctanos</h1>
         </div>

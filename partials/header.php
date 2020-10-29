@@ -29,9 +29,10 @@
             <ul>
                 <li class="active"><a class="text-header" href="#topbar">Inicio</a></li>
                 <li><a class="text-header" href="#about">Quiénes Somos</a></li>
-                <li><a class="text-header" href="#vimi">Visión y Misión</a></li>
+                <li><a class="text-header" href="#select">Por qué elegirnos</a></li>
                 <li><a class="text-header" href="#services">Servicios</a></li>
-                <li><a class="text-header" href="#contactanos">Contáctanos</a></li>
+                <li><a class="text-header" href="#vimi">Visión y Misión</a></li>
+                <li><a class="text-header" href="#contact">Contáctanos</a></li>
                 <!--<li><a class="text-header" href="#ubicanos">Ubícanos</a></li>-->
             </ul>
         </nav>
