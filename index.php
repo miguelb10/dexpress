@@ -62,7 +62,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 text-center box-style-hover" id="hoverF">
                             <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_car.png" />
-                            <h6 class="black-text-title">Envía o recibe paquetes grandes
+                            <h6 class="black-text-title"></br>Envía o recibe paquetes grandes
                                 </br>Envío en auto
                             </h6>
                         </div>
@@ -72,7 +72,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 text-center box-style-hover" id="hoverS">
                             <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_truck.png" />
-                            <h6 class="black-text-title">Nosotros te ayudamos a movilizarte
+                            <h6 class="black-text-title"></br>Nosotros te ayudamos a movilizarte
                                 </br>Envío en Camioneta
                             </h6>
                         </div>
@@ -80,9 +80,9 @@
                             <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_moto.png" />
                             <h6 class="black-text-title">Envío en moto</h6>
                         </div>
-                        <div class="col-lg-6 col-md-6 text-center margin-12-center box-style-hover" id="hoverT">
+                        <div class="col-lg-8 col-md-6 text-center margin-8-center box-style-hover" id="hoverT">
                             <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_moto.png" />
-                            <h6 class="black-text-title">Envía o recibe paquetes pequeños que se puedan llevar en moto
+                            <h6 class="black-text-title"></br>Envía o recibe paquetes pequeños que se puedan llevar en moto
                                 </br>Envío en moto
                             </h6>
                         </div>

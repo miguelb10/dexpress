@@ -968,9 +968,9 @@ section {
 }
 
 .box-style-hover {
-  border-style: solid;
   border-radius: 20px;
   max-height: 10%;
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
 
 #hoverF {
@@ -1846,7 +1846,7 @@ section {
 }
 
 .img-size-replace {
-  max-width: 50%;
+  max-width: 45%;
 }
 
 .form-contactanos-top {
@@ -1906,6 +1906,10 @@ section {
 .margin-12-center {
   margin-left: 25%;
   margin-right: 25%;
+}
+.margin-8-center{
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .margin-top-box-t {
