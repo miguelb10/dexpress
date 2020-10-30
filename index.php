@@ -54,39 +54,31 @@
                         manera eficiente los servicios
                         de entrega para sus necesidades
                         personales y comerciales.</h2>
-                        <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 text-center" id="imageF">
-                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_car.png"/>
-                            <h6 class="black-text-title">Envío en auto</h6>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace box-style-hover" src="assets/img/iconos/iconos_dexpress_car.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_car_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_car.png';"/>
+                                <!--
+                                <img class="img-size-replace" id="imageF" src="assets/img/iconos/iconos_dexpress_car.png" />
+                                <img class="img-size-replace" id="hoverF" src="assets/img/iconos/iconos_dexpress_car_2.png" />
+-->
+                            </div>
+                            <div class="col-lg-6 col-md-6 text-center">
+                            <img class="img-size-replace box-style-hoverd" src="assets/img/iconos/iconos_dexpress_truck.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_truck_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_truck.png';"/>
+                                <!--
+                                <img class="img-size-replace" id="imageF" src="assets/img/iconos/iconos_dexpress_car.png" />
+                                <img class="img-size-replace" id="hoverF" src="assets/img/iconos/iconos_dexpress_car_2.png" />
+-->
+                            </div>
+                            <div class="col-lg-6 col-md-6 text-center margin-12-center">
+                            <img class="img-size-replace box-style-hover" src="assets/img/iconos/iconos_dexpress_moto.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_moto_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_moto.png';"/>
+                                <!--
+                                <img class="img-size-replace" id="imageF" src="assets/img/iconos/iconos_dexpress_car.png" />
+                                <img class="img-size-replace" id="hoverF" src="assets/img/iconos/iconos_dexpress_car_2.png" />
+-->
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 text-center box-style-hover" id="hoverF">
-                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_car.png" />
-                            <h6 class="black-text-title">Envía o recibe paquetes grandes
-                                </br>Envío en auto
-                            </h6>
-                        </div>
-                        <div class="col-lg-6 col-md-6 text-center" id="imageS">
-                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_truck.png" />
-                            <h6 class="black-text-title">Envío en Camioneta</h6>
-                        </div>
-                        <div class="col-lg-6 col-md-6 text-center box-style-hover" id="hoverS">
-                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_truck.png" />
-                            <h6 class="black-text-title">Nosotros te ayudamos a movilizarte
-                                </br>Envío en Camioneta
-                            </h6>
-                        </div>
-                        <div class="col-lg-6 col-md-6 text-center margin-12-center" id="imageT">
-                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_moto.png" />
-                            <h6 class="black-text-title">Envío en moto</h6>
-                        </div>
-                        <div class="col-lg-8 col-md-6 text-center margin-8-center box-style-hover" id="hoverT">
-                            <img class="img-size-replace" src="assets/img/iconos/iconos_dexpress_moto.png" />
-                            <h6 class="black-text-title">Envía o recibe paquetes pequeños que se puedan llevar en moto
-                                </br>Envío en moto
-                            </h6>
-                        </div>
-                    </div></div>
+                    </div>
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-lg-5 col-md-6">

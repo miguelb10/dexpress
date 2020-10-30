@@ -967,12 +967,66 @@ section {
   }
 }
 
-.box-style-hover {
+.box-style-hover:hover {
+  margin-left: -60%;
   border-radius: 20px;
-  max-height: 10%;
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
 
+.box-style-hoverd:hover {
+  border-radius: 20px;
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+}
+
+/*--------------------------------------------------------------
+
+#imgf {
+  background-image: url('../img/iconos/iconos_dexpress_car.png');
+  background-color: #f2f2f2;
+}
+
+#imgf:hover {
+  z-index: 100;
+  margin-left: -20%;
+  background-image: url('../img/iconos/iconos_dexpress_car_2.png');
+}
+
+#imgs {
+  background-image: url('../img/iconos/iconos_dexpress_truck.png');
+  background-color: #f2f2f2;
+}
+
+#imgs:hover {
+  z-index: 100;
+  margin-left: 0%;
+  background-image: url('../img/iconos/iconos_dexpress_truck_2.png');
+}
+
+
+#imgt {
+  background-image: url('../img/iconos/iconos_dexpress_moto.png');
+  background-size: 100%;
+  margin: 1px;
+  background-color: #f2f2f2;
+  width: 383px;
+  height: 209px;
+}
+
+#imgt:hover {
+  background-image: url('../img/iconos/iconos_dexpress_moto_2.png');
+}
+#imageFTest{
+  background-image: url('../img/iconos/iconos_dexpress_car.png');
+}
+#imageFTest:hover {
+  background-image: url('../img/iconos/iconos_dexpress_car_2.png');
+}
+#imageFTest1{
+  background-image: url('../img/iconos/iconos_dexpress_truck.png');
+}
+#imageFTest1:hover {
+  background-image: url('../img/iconos/iconos_dexpress_truck_2.png');
+}
 #hoverF {
   display: none;
   position: relative;
@@ -1012,7 +1066,6 @@ section {
   display: flex;
 }
 
-/*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 
@@ -1845,10 +1898,6 @@ section {
   display: block;
 }
 
-.img-size-replace {
-  max-width: 45%;
-}
-
 .form-contactanos-top {
   padding-bottom: 20px;
 }
@@ -1907,7 +1956,8 @@ section {
   margin-left: 25%;
   margin-right: 25%;
 }
-.margin-8-center{
+
+.margin-8-center {
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -1928,6 +1978,16 @@ section {
 }
 
 @media screen and (max-width: 980px) {
+  .box-style-hover:hover {
+    margin-left: 0% !important;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  }
+  .box-style-hoverd:hover {
+    margin-left: 0% !important;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  }
   .black-text-title {
     margin-left: 8%;
     margin-right: 8%;
