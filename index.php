@@ -56,20 +56,21 @@
                         personales y comerciales.</h2>
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 text-center">
+                            <!--<div class="col-lg-6 col-md-6 text-center">
                             <img class="img-size-replace box-style-hover" src="assets/img/iconos/iconos_dexpress_car.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_car_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_car.png';"/>
-                                <!--
+                                
                                 <img class="img-size-replace" id="imageF" src="assets/img/iconos/iconos_dexpress_car.png" />
                                 <img class="img-size-replace" id="hoverF" src="assets/img/iconos/iconos_dexpress_car_2.png" />
--->
+
                             </div>
                             <div class="col-lg-6 col-md-6 text-center">
                             <img class="img-size-replace box-style-hoverd" src="assets/img/iconos/iconos_dexpress_truck.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_truck_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_truck.png';"/>
-                                <!--
+                                
                                 <img class="img-size-replace" id="imageF" src="assets/img/iconos/iconos_dexpress_car.png" />
                                 <img class="img-size-replace" id="hoverF" src="assets/img/iconos/iconos_dexpress_car_2.png" />
--->
+
                             </div>
+                            -->
                             <div class="col-lg-6 col-md-6 text-center margin-12-center">
                             <img class="img-size-replace box-style-hover" src="assets/img/iconos/iconos_dexpress_moto.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_moto_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_moto.png';"/>
                                 <!--
@@ -360,7 +361,7 @@
                     <h4 class="title-modal-text-1 text-center">TÉRMINOS Y CONDICIONES</h4>
                     <h5 class="title-modal-text-1">La contratación y adquisición de los servicios de DExpress Perú implica total conocimiento y aceptación de las condiciones abajo especificadas de acuerdo a las disposiciones legales y reglamentarias vigentes; por tal motivo, sugerimos que tengan en cuenta las siguientes consideraciones:</h5>
                     <ol class="enum-text">
-                        <li>El servicio adquirido tiene dos modalidades como mínimo: Servicio Part Time, que comprende 5 horas diarias, 7 veces por semana y el servicio Full time que comprende de 8 a 9 horas diarias por semana.</li>
+                        <li>El servicio adquirido tiene dos modalidades como mínimo: Servicio Part Time, que comprende 5 horas diarias por 7 días a la semana y el servicio Full time que comprende de 8 a 12 horas diarias por 7 días a la semana.</li>
                         <li>En el momento de emisión del presente contrato el cliente deberá verificar bajo su responsabilidad que todos los datos consignados en éste sean conformes y de acuerdo a su solicitud y acepta las cláusulas generales de contratación.</li>
                         <li>Para acceder a los servicios contratados con la empresa, esta deberá ser establecida de forma mensual como mínimo o extender el tiempo de vigencia según sea la necesidad del cliente.</li>
                         <li>En caso de presentarse alguna eventualidad en el lugar de origen o durante el viaje, que impida la prestación del servicio, la Empresa realizará el transbordo en unidades estándar (propias o terceras).</li>
