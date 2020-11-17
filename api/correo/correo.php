@@ -3,9 +3,6 @@ error_reporting(0);
 if(isset($_POST['nombre']) && $_POST['nombre'] && 
 isset($_POST['asunto']) && $_POST['asunto'] &&
 isset($_POST['correo']) && $_POST['correo'] &&
-isset($_POST['celular']) && $_POST['celular'] &&
-isset($_POST['ruc']) && $_POST['ruc'] &&
-isset($_POST['empresa']) && $_POST['empresa'] &&
 isset($_POST['mensaje']) && $_POST['mensaje'] ){
     $destino = "deliveryexpress@dexpress.com.pe";
     $cabeceras = 'MIME-Version: 1.0' . "\r\n";
