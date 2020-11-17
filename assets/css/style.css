@@ -2112,6 +2112,9 @@ section {
     background-image: none !important;
     background-color: #c6c6c6 !important;
   }
+  .img-size-replace{
+    max-width: 100%;
+  }
 }
 
 .icon-margin-topt {

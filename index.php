@@ -36,7 +36,7 @@
                                     tranporte y distribución de alimentos y
                                     operaciones logísticas.</p>
                                 <div style="flex: auto; padding-top: 1%;">
-                                    <a href="#contactanos" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
+                                    <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contactarnos</a>
                                     <a href="#about" class="leer-get-started animate__animated animate__fadeInUp scrollto">Leer más</a>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                             </div>
                             -->
                             <div class="col-lg-6 col-md-6 text-center margin-12-center">
-                            <img class="img-size-replace box-style-hover" src="assets/img/iconos/iconos_dexpress_moto.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_moto_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_moto.png';"/>
+                                <img class="img-size-replace box-style-hover" src="assets/img/iconos/iconos_dexpress_moto.png" onmouseover="this.src='assets/img/iconos/iconos_dexpress_moto_2.png';" onmouseout="this.src='assets/img/iconos/iconos_dexpress_moto.png';" />
                                 <!--
                                 <img class="img-size-replace" id="imageF" src="assets/img/iconos/iconos_dexpress_car.png" />
                                 <img class="img-size-replace" id="hoverF" src="assets/img/iconos/iconos_dexpress_car_2.png" />
@@ -282,7 +282,7 @@
                         <div class="form-group row form-contactanos-top">
                             <div class="col-sm-6 contact-form-pad">
                                 <label class="text_form_contactanos" for="celular">Celular</label>
-                                <input onKeyPress="return soloNumeros(event)" type="text" maxlength="9" class="form-control" id="celular" name="celular" placeholder="Ingrese su celular" required>
+                                <input onKeyPress="return soloNumeros(event)" type="text" maxlength="9" class="form-control" id="celular" name="celular" placeholder="Ingrese su celular">
                             </div>
                             <div class="col-sm-6 contact-form-pad">
                                 <label class="text_form_contactanos" for="asunto">Asunto</label>
@@ -292,11 +292,11 @@
                         <div class="form-group row form-contactanos-top">
                             <div class="col-sm-6 contact-form-pad">
                                 <label class="text_form_contactanos" for="ruc">RUC</label>
-                                <input onKeyPress="return soloNumeros(event)" type="text" minlength="11" maxlength="11" class="form-control" id="ruc" name="ruc" placeholder="Ingrese el RUC de su empresa" required>
+                                <input onKeyPress="return soloNumeros(event)" type="text" minlength="11" maxlength="11" class="form-control" id="ruc" name="ruc" placeholder="Ingrese el RUC de su empresa">
                             </div>
                             <div class="col-sm-6 contact-form-pad">
                                 <label class="text_form_contactanos" for="empresa">Razón social</label>
-                                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Ingrese la razón social de su empresa" required>
+                                <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Ingrese la razón social de su empresa">
                             </div>
                         </div>
                         <div class="form-group row form-contactanos-top">

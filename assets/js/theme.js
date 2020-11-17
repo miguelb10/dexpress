@@ -44,10 +44,7 @@ function validarFormulario() {
 
     var txtNombre = document.getElementById('nombre').value;
     var txtCorreo = document.getElementById('correo').value;
-    var numCelular = document.getElementById('celular').value;
-    var numRuc = document.getElementById('ruc').value;
     var txtAsunto = document.getElementById('asunto').value;
-    var txtEmpresa = document.getElementById('empresa').value;
     var txtMensaje = document.getElementById('mensaje').value;
 
     if (txtNombre == null || txtNombre.length == 0 || /^\s+$/.test(txtNombre)) {
@@ -62,27 +59,9 @@ function validarFormulario() {
         return false;
     }
 
-    if (numCelular == null || numCelular.length == 0 || isNaN(numCelular) || numCelular.length < 9) {
-        alert('ERROR: El campo celular debe contener 9 dígitos');
-        document.getElementById("celular").select();
-        return false;
-    }
-
-    if (numRuc == null || numRuc.length == 0 || isNaN(numRuc) || numRuc.length < 11 || numRuc.length > 11) {
-        alert('ERROR: El campo RUC debe contener 11 dígitos');
-        document.getElementById("ruc").select();
-        return false;
-    }
-
     if (txtAsunto == null || txtAsunto.length == 0 || /^\s+$/.test(txtAsunto)) {
         alert('ERROR: El campo asunto no debe estar vacío');
         document.getElementById("asunto").select();
-        return false;
-    }
-
-    if (txtEmpresa == null || txtEmpresa.length == 0 || /^\s+$/.test(txtEmpresa)) {
-        alert('ERROR: El campo empresa no debe estar vacío');
-        document.getElementById("empresa").select();
         return false;
     }
 
