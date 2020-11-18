@@ -44,8 +44,8 @@ isset($_POST['mensaje']) && $_POST['mensaje'] ){
     <title>Correo Web</title>
     </head>
     <body>
-    <p>Gracias por comunicarse con DExpress Perú</p>
-	  <p>en breve uno de nuestros asesores se comunicará con Ud.
+    <p>Gracias por comunicarse con DExpress Perú.</p>
+	  <p>En breve uno de nuestros asesores se comunicará con Ud.
     </p>
     <a href='https://www.dexpress.com.pe/'><img src='https://www.dexpress.com.pe/img/Firma.jpg' /></a>
     </body>
